@@ -18,14 +18,14 @@
 .about-grid {
   width: 500px;
   height: 500px;
-  background-color: #5976B0;
+  background-color:#152141;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
 }
 
 .about-heading {
-  color: #fff;
+  color: #E2E7EB;
   font-size: 70px;
   width: 464px;
   height: 199px;
@@ -37,7 +37,7 @@
 }
 
 .about-para {
-  color: #fff;
+  color: #E2E7EB;
   width: 479px;
   height: 278px;
   grid-column: 2;

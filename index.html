@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Workman Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="gallery.css">
     <script src="main.js" async defer></script>
+    <script src="gallery.js" async defer></script>
 </head>
 
 <body>
@@ -30,9 +33,9 @@
     <!-- navbar-end -->
 
     <!-- Home-start -->
-    <div class="main-card">
+    <div class="main-card" id="home">
         <aside class="toilet">
-            <img src="img/steven-ungermann-1AF5hP6F4tI-unsplash.jpg" class="toilet" alt="toilet pic">
+            <img src="img/group 3.png" class="pic" alt="toilet pic">
         </aside>
         <section class="intro-grid">
             <h1 class="intro">Welcome to <strong>WORKMAN</strong></h1>
@@ -51,7 +54,7 @@
     <!-- Home-end -->
 
     <!-- about-start -->
-    <div class="about-card">
+    <div class="about-card" id="about">
         <div class="about-grid">
             <h1 class="about-heading">About Us</h1>
             <img src="img/towfiqu-barbhuiya--9gPKrsbGmc-unsplash.jpg" class="about-pic" alt="about-pic">
@@ -60,13 +63,37 @@
                 maintenance.
                 Our specialty lies in providing luxurious cleaning for offices, homes, apartments, guesthouses, and
                 hotel rooms.
-                <br><br>
+                <br>
                 Experience the highest standards of cleanliness with our dedicated team of professionals. Trust Workman
                 to transform your space into a pristine haven.
             </p>
         </div>
     </div>
     <!-- about-end -->
+
+    <!-- gallery-start -->
+    <div class="gallery-container" id="gallery">
+
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <div class="carousel">
+                <h1 class="gallery-heading">Gallery</h1>
+                <img src="img/10144.jpg" alt="img" draggable="false">
+                <img src="img/10144.jpg" alt="img" draggable="false">
+                <img src="img/10144.jpg" alt="img" draggable="false">
+                <img src="img/10144.jpg" alt="img" draggable="false">
+                <img src="img/10144.jpg" alt="img" draggable="false">
+                <img src="img/10144.jpg" alt="img" draggable="false">
+                <img src="img/10144.jpg" alt="img" draggable="false">
+                <img src="img/10144.jpg" alt="img" draggable="false">
+                <img src="img/10144.jpg" alt="img" draggable="false">
+            </div>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+    </div>
+
+
+    <!-- gallery-end -->
 
 </body>
 

@@ -47,12 +47,7 @@
 }
 
 
-.toilet {
-  width: 650px;
-  height: 700px;
-  object-fit: cover;
-  flex-shrink: 0;
-}
+
 
 .container {
   display: flex;
@@ -65,10 +60,15 @@
 .main-card {
   display: flex;
   align-items: center;
-  background-color: #E2E7EB;
+  background-color: #152141;
 }
 
-
+.pic {
+  width: 600px;
+  height: 700px;
+  object-fit: contain;
+  margin-left: 20px;
+}
 .intro-grid {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -83,7 +83,7 @@
   height: 199px;
   font-size: 70px;
   line-height:95.33px;
-  color: #152141;;
+  color: #E2E7EB;
   grid-column: 2;
   grid-row: 1;
 }
@@ -92,7 +92,7 @@
   font-weight: bolder;
   font-size: 20px;
   line-height:27.24px;
-  color: #152141;
+  color: #E2E7EB;
   grid-column-start: 2;
     grid-column-end: 6;
     grid-row-start: 4;
@@ -115,7 +115,7 @@
 }
 
 .btn:hover{
-  background-color: #152141;
+  background-color: #476092;
 }
 
 
