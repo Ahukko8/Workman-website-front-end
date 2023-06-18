@@ -6,42 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Workman Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
     <script src="main.js" async defer></script>
 </head>
 
 <body>
+
+    <!-- navbar-start -->
     <header>
-        <nav class="nav">
-            <a href="#home" class="nav-button">Home</a>
-            <a href="#about" class="nav-button">About Us</a>
-            <a href="#gallery" class="nav-button">Gallery</a>
-            <a href="#services" class="nav-button">Services</a>
-            <a href="#contact" class="nav-button">Contact</a>
+        <nav class="nav container">
+            <ul class="menu_items">
+                <img src="img/times.svg" alt="timesicon" id="menu_toggle" />
+                <li><a href="#home" class="nav-button">Home</a></li>
+                <li><a href="#about" class="nav-button">About Us</a></li>
+                <li><a href="#gallery" class="nav-button">Gallery</a></li>
+                <li><a href="#services" class="nav-button">Services</a></li>
+                <li><a href="#contact" class="nav-button">Contact</a> </li>
+            </ul>
+            <img src="img/bars.svg" alt="barsicon" id="menu_toggle" />
         </nav>
     </header>
+    <!-- navbar-end -->
 
-    <main class="container">
-        <div class="main-card">
-            <aside class="toilet">
-                <img src="img/steven-ungermann-1AF5hP6F4tI-unsplash.jpg" class="toilet" alt="toilet pic">
-            </aside>
-            <section class="intro-grid">
-                <h1 class="intro">Welcome to <span class="bold">WORKMAN</span></h1>
-                <p class="intro-para">
-                    Where pristine cleanliness meets effortless elegance. Our exceptional cleaning services are
-                    meticulously tailored to exceed your highest expectations.
-                    <br><br>
-                    With a focus on sophistication and attention to detail, we transform your living or working spaces
-                    into immaculate havens that inspire tranquility and productivity.
-                    We understand the importance of a pristine environment for your home or office, and we are committed
-                    to providing top-notch cleaning services that exceed your expectations.
-                </p>
-                <button class="btn" id="#service-btn">Services</button>
-            </section>
+    <!-- Home-start -->
+    <div class="main-card">
+        <aside class="toilet">
+            <img src="img/steven-ungermann-1AF5hP6F4tI-unsplash.jpg" class="toilet" alt="toilet pic">
+        </aside>
+        <section class="intro-grid">
+            <h1 class="intro">Welcome to <strong>WORKMAN</strong></h1>
+            <p class="intro-para">
+                Where pristine cleanliness meets effortless elegance. Our exceptional cleaning services are
+                meticulously tailored to exceed your highest expectations.
+                <br><br>
+                With a focus on sophistication and attention to detail, we transform your living or working spaces
+                into immaculate havens that inspire tranquility and productivity.
+                We understand the importance of a pristine environment for your home or office, and we are committed
+                to providing top-notch cleaning services that exceed your expectations.
+            </p>
+            <button class="btn" id="#service-btn">Services</button>
+        </section>
+    </div>
+    <!-- Home-end -->
+
+    <!-- about-start -->
+    <div class="about-card">
+        <div class="about-grid">
+            <h1 class="about-heading">About Us</h1>
+            <img src="img/towfiqu-barbhuiya--9gPKrsbGmc-unsplash.jpg" class="about-pic" alt="about-pic">
+            <p class="about-para">
+                <strong>WORKMAN,</strong> based in Male'. We offer a wide range of services, from cleaning to
+                maintenance.
+                Our specialty lies in providing luxurious cleaning for offices, homes, apartments, guesthouses, and
+                hotel rooms.
+                <br><br>
+                Experience the highest standards of cleanliness with our dedicated team of professionals. Trust Workman
+                to transform your space into a pristine haven.
+            </p>
         </div>
-
-    </main>
+    </div>
+    <!-- about-end -->
 
 </body>
 
