@@ -20,7 +20,13 @@ body {
     justify-content: flex-end;
     
   }
-  
+ 
+  .logo {
+    width: 120px;
+    margin-right: 40%;
+    opacity: 0.3;
+  }
+
   .nav a {
     float: left;
     color:#152141;
@@ -41,10 +47,7 @@ body {
     gap: 20px;
   }
   
-  #menu_toggle {
-    display: none;
-  }
-
+ 
 
 /* home */
 .home-card {
