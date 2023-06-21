@@ -8,7 +8,11 @@
 }
 
 
-
+.card {
+    background-image: linear-gradient(360deg, #d1cfc9, #807f7b);
+    border: none;
+    outline: none;
+}
 
 .custom-button {
     background-color:#373d42;
@@ -32,6 +36,6 @@
     /* background-image: url('img/about-bg.jpg'); */
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: linear-gradient(180deg, #d1cfc9, #807f7b)
+    
     
 }
