@@ -6,34 +6,3 @@
     box-sizing: border-box;
     font-family: 'Poppins';
 }
-
-
-
-
-.custom-button {
-    background-color:#373d42;
-    color: rgb(232, 232, 232);
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 8px;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-
-.custom-button:hover {
-    /* color:#fff; */
-    /* border: 1px solid #232629; */
-    background-color: #414950;
-    
-}
-
-.about-custom-container-bg {
-    background-image: url('img/about-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.custom-cont {
-    margin-top: 25%;
-}
