@@ -10,9 +10,21 @@
 .reveal{
     transform: translateY(150px);
     opacity: 0;
-    transition: 2s all ease;
+    transition: 1.5s all ease;
   }
   .reveal.active{
     transform: translateY(0);
     opacity: 1;
   }
+
+  .fade-in-first {
+   animation: fadeIn 2s;
+   animation-timing-function: ease;
+   /* animation-delay: 0.3s; */
+   animation-fill-mode: both;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
