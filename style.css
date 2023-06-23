@@ -7,6 +7,7 @@
 
 }
 
+/* scroll animation */
 .reveal{
     transform: translateY(150px);
     opacity: 0;
@@ -16,11 +17,11 @@
     transform: translateY(0);
     opacity: 1;
   }
-
+/* reload home animation */
   .fade-in-first {
    animation: fadeIn 2s;
    animation-timing-function: ease;
-   /* animation-delay: 0.3s; */
+   animation-delay: 0.3s;
    animation-fill-mode: both;
   }
   @keyframes fadeIn {

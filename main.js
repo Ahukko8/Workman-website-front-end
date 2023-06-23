@@ -1,6 +1,6 @@
+const reveals = document.querySelectorAll(".reveal");
 function reveal() {
-    const reveals = document.querySelectorAll(".reveal");
-    for (var i = 0; i < reveals.length; i++) {
+    for (let i = 0; i < reveals.length; i++) {
         let windowHeight = window.innerHeight;
         let elementTop = reveals[i].getBoundingClientRect().top;
         let elementVisible = 150;
